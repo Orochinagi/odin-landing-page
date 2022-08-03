@@ -7,7 +7,6 @@ body{
 .elm1, .elm5{
     background-color: #1f2937;
 }
-
 ul{
     list-style-type: none;
 }
@@ -39,25 +38,25 @@ button{
     border: 0px;
 }
 
-.header{
+/*.header{
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 100px;
     margin-top: 15px;
-}
+}*/
 .links ul {
     padding: 0px;
     margin: 0px;
     display: flex;
-    gap: 20px;
+    gap: 20px
 }
 .main img{
     width: 500px;
     height: 250px;
 }
-.main{
+/*.main{
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
@@ -67,7 +66,7 @@ button{
 .hero-secondary{
     width: 425px;
     margin-bottom: 10px;
-}
+}*/
 .elm2{
     display: flex;
     align-items: center;
@@ -78,7 +77,7 @@ button{
     padding-bottom: 70px;
     gap: 50px;
 }
-li{
+.content li{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,4 +154,33 @@ li img{
     padding-top: 20px;
     padding-bottom: 20px;
     color: #F9FaF8;
+}
+
+/* Changes to elemeent 1*/
+.elm1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1000px;
+    padding-bottom: 100px;
+    padding-top: 15px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-bottom: 100px;
+}
+
+.main div{
+    width: 430px;
+}
+.hero-secondary{
+    margin-bottom: 10px;
 }
