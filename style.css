@@ -87,7 +87,7 @@ li{
     width: 170px;
 }
 
-.content{
+.elm2 .content{
     display: flex;
     gap: 30px;
 }
@@ -127,4 +127,32 @@ li img{
     display: flex;
     width: 700px;
     justify-content: flex-end;
+}
+
+.elm4{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 7px;
+    width: 1000px;
+    align-self: center;
+}
+.elm4 .call-main{
+    font-weight: bold;
+}
+.button-signup{
+    border: 2px solid white;
+    align-self: flex-end;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #F9FaF8;
 }
